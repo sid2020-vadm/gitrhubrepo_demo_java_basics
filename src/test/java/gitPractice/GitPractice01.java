@@ -5,9 +5,9 @@ public class GitPractice01 {
         System.out.println("login feature branch");
         System.out.println("login feature branch");
         System.out.println("login feature branch");
-        int a = 30;
-        System.out.println(a);
-        System.out.println("feature Branch");
+        int b = 30;
+        System.out.println(b);
+        System.out.println("main Branch");
 
     }
 }
