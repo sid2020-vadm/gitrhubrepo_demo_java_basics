@@ -20,6 +20,7 @@ public class TrowKeyWordDemo {
         }catch (ArithmeticException e){
             System.out.println("data is not valid...");
         }
+
     }
 
 }

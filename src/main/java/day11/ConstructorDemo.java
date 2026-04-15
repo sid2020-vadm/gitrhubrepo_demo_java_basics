@@ -19,7 +19,7 @@ public class ConstructorDemo {
     public static void main(String[] args){
      ConstructorDemo cd = new ConstructorDemo();
      ConstructorDemo cd1 = new ConstructorDemo(2,4);
-     cd.sum();
-     cd1.sum();
+     cd.sum();//30
+     cd1.sum();//6
     }
 }

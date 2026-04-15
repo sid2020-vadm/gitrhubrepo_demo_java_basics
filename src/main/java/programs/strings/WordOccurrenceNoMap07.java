@@ -16,7 +16,7 @@ public class WordOccurrenceNoMap07 {
                 for (int j=i+1;j<lenWords;j++){
                     if (words[i].equals(words[j])){
                         count++;
-                        visited[j] = true;
+                            visited[j] = true;
                     }
                 }
                 System.out.println(words[i]+"--> count is --> "+count);

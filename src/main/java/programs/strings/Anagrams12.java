@@ -10,6 +10,7 @@ public class Anagrams12 {
         s2= s2.toLowerCase().replaceAll("\\s+","");
         if(s1.length() != s2.length()){
             System.out.println("not anagram");
+            return; //exit from method
         }
         char[] ch1 = s1.toCharArray();
         char[] ch2 = s2.toCharArray();

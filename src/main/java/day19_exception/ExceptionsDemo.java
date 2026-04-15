@@ -8,9 +8,9 @@ public class ExceptionsDemo {
         Scanner sc = new Scanner(System.in);
         System.out.println("program started...");
 //        example1
-//        System.out.println("enter a number");
-//        int a =sc.nextInt();
-//        System.out.println("devision "+(100/a));
+        System.out.println("enter a number");
+        int a =sc.nextInt();
+        System.out.println("devision "+(100/a));
 
 //        Example2
 //        int[] a= new int[5];
@@ -28,8 +28,8 @@ public class ExceptionsDemo {
 //        System.out.println(x);
 
 //        example4
-        String s=null;
-        System.out.println(s.length()); // Null pointer exception
+//        String s=null;
+//        System.out.println(s.length()); // Null pointer exception
 
 
 
